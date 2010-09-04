@@ -21,6 +21,6 @@ class Ant < Formula
   end
 
   def test
-    system "#{prefix}/ant/bin/ant -version"
+    system "#{prefix}/bin/ant -version"
   end
 end
